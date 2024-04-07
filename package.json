@@ -16,7 +16,9 @@
     ],
     "win": {},
     "linux": {},
-    "mac": {}
+    "mac": {},
+    "asar": true,
+    "asarUnpack": "node_modules/puppeteer/.local-chromium/**/*"
   },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
